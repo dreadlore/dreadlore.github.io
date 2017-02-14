@@ -1,8 +1,14 @@
 .sass-cache/
 materialize/
 node_modules/
+app/
 __pycache__
 *.pyc
 db.sqlite3
 *.sqlite3
 npm-debug.log
+
+Procfile
+main.js
+requirements.js
+run.py
