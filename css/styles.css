@@ -40,6 +40,10 @@ h1, h2, h3 {
     color: #550000;
 }
 
+footer {
+    margin-bottom: 70pt;
+}
+
 .logo-image {
     width: 100pt;
     height: 100pt;
