@@ -29,6 +29,7 @@ body {
 }
 
 a:link, a:visited {
+    color: #602d31;
 }
 
 a:hover {
@@ -65,5 +66,6 @@ footer {
 }
 
 #site-map {
-
+    text-align: center;
+    font-weight: bold;
 }
