@@ -58,28 +58,44 @@
 
                 <div class="divider"></div>
                 <div class="section">
-                    <a href="contact.html">Contact Us!</a>
+                    <a href="index.html">Back home</a>
                 </div>
             </div>
 
             <div class="col s2"></div>
 
-            <div class="col s7"
-                id="explanations"
+            <!-- <form action="https://formspree.io/dreadloresystem@gmail.com" -->
+            <form class="col s7"
+                id="contact-form"
+                action=""
+                method="POST"
             >
-                <h2>What is DreadLore?</h2>
-                <p>
-                    DreadLore is a narrative table-top RPG, built around an original Fantasy Punk setting. If you enjoy taking a real role in the creative process of story-telling, and you also wanna roll some dice and kill bad (or good) guys&#8230;chances are this is the system for you.
-                </p>
+                <h3>Contact Us:</h3>
+                <div class="input-field">
+                    Enter your name:<br />
+                    <input type="text" 
+                        name="name"><br />
+                </div>
 
-                <div class="divider"></div>
-                <h2>What is a "System"?</h2>
-                <p>
-                    Ever heard of a table-top RPG? e.g. Dungeons &amp; Dragons, World of Darkness, Numenera, etc.? DreadLore™ is a similar sort of board game. These games are classified in several ways: table-top, pen &amp; ink, RPG and silly dice games <-- my favorite.
-                </p>
-                <p>
-                    Most systems are comprised of just a few factors. There is usually a Setting (sci-fi, fantasy, etc.) and a list of Core Mechanics (how the numbers &amp; math work in the game). Table-top systems also require a Game Master in addition to several Players to play.
-                </p>
+                <div class="input-field">
+                    Enter your e-mail address:
+                    <input type="email" 
+                        name="_replyto"><br />
+                </div>
+
+                <div class="input-field">
+                    What are you asking?<br />
+                    <textarea class="materialize-textarea" 
+                        name="message"></textarea>
+                </div>
+
+                <button class="btn waves-effect red darken-2"
+                    type="submit"
+                    name="action"
+                >Send
+                    <i class="material-icons right">send</i>
+                </button>
+            </form>
             </div>
         </div>
     </div>
