@@ -40,12 +40,26 @@ h1, h2, h3 {
     color: #550000;
 }
 
-#nav, h1 {
+.logo-image {
+    width: 100pt;
+    height: 100pt;
+    margin: 10pt;
+}
+
+#top-page, h1 {
     background-color: #602d31; /*dark-cherry*/
     color: #e1c7c9; /*light-cherry*/
+}
+
+#top-page {
+    margin-top: 10pt;
 }
 
 #site-map, #explanations, #contact-form {
     background-color: #ffede0; /*limey-white*/
     color: ;
+}
+
+#site-map {
+
 }
