@@ -1,0 +1,71 @@
+/* Ideas PALETTE */
+/* #602d31 grey-red*/
+/* #fc1329 cherry-red*/
+/* #88000a normal red*/
+/* #fecba6 almost white-yellow*/
+/* #d49a6a middle ochre*/
+/* #ffe7e7 very very white-red*/
+
+/*CHOSEN PALETTE*/
+/* #1c1112 dark black-red*/
+/* #550000 dark red*/
+/* #ffede0 limey-white*/
+
+/*#e1c7c9 light cherry-works with dark-cherry
+#602d31 dark-cherry*/
+
+/*
+font-family: 'Barrio', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Abril Fatface', cursive;
+*/
+
+body {
+    /*background-color: #d46a6a;*/
+    background-color: #fecba6; /*white-yellow*/
+    font-family: 'Raleway', sans-serif;
+    font-size: 16pt;
+    color: #000000; /*dark-red*/
+}
+
+a:link, a:visited {
+    color: #602d31;
+}
+
+a:hover {
+    color: #fc1329; /*cherry-red*/
+}
+
+h1, h2, h3 {
+    font-family: 'Abril Fatface', cursive;
+    color: #550000;
+}
+
+footer {
+    margin-bottom: 70pt;
+}
+
+.logo-image {
+    width: 100pt;
+    height: 100pt;
+    margin: 10pt;
+}
+
+#top-page, h1 {
+    background-color: #602d31; /*dark-cherry*/
+    color: #e1c7c9; /*light-cherry*/
+}
+
+#top-page {
+    margin-top: 10pt;
+}
+
+#site-map, #explanations, #contact-form {
+    background-color: #ffede0; /*limey-white*/
+    color: ;
+}
+
+#site-map {
+    text-align: center;
+    font-weight: bold;
+}
