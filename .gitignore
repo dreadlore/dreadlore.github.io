@@ -4,6 +4,10 @@ readmeBill*
 readme_bill*
 src/playground/*
 
+# UPDATED
+old_index.html
+old_contact.html
+
 # SASS
 .sass-cache/
 materialize/
