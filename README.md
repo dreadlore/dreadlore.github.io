@@ -5,7 +5,8 @@
 ## Versions
 1. As I learned in the 'bootcamp', it's more important to have a working, unfinished (even ugly) product than to have no product at all. Thus, for the time being, I'll be deploying a simple site which uses [Materialze] instead of Bootstrap - I might as well test out something new. In the meantime, I'm working on a [Flask] tutorial on the side; the eventual DL site will most likely be built off Flask.
 
-2. **UPDATE** Changing site over to ReactJS.
+2. **UPDATE** Changing site over to ReactJS. This failed as Github apparently needs **gh-pages** and I do not have an account. Regardless, I simply want a *landing site* for DL at this time.
+3. Reverting back to normal HTML & CSS but with *some* good practices.
 
 ## [Materialize] CSS
 + The obligatory site built using [Materialize] CSS. As my main focus (and career) is web development, I decided to learn and showcase my growing skills using Materialize CSS. I chose Materialize CSS over [Material-Design-Lite] in accordance with some advice I received from a fellow 'bootcamp' cohort - in short, MDL is a little less intuitive than Materialize; that's probably because Materialize seems much similar to how __bootstrap__ works.
