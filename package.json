@@ -6,7 +6,7 @@
   "homepage": "https://github.com/dreadlore/dreadlore.github.io.git",
   "license": "MIT",
   "scripts": {
-    "serve": "live-server public/",
+    "serve": "live-server",
     "build": "webpack",
     "dev-server": "webpack-dev-server",
     "predeploy": "npm run build",

@@ -1,0 +1,70 @@
+/* Ideas PALETTE */
+/* very dark purple #020102 */
+/* purple #5D005D */
+/* dl red #7F0027 */
+/* dl light red #9A3554 */
+/* dl orange #8F2900 */
+/* dl light orange #AC5B3B */
+/* dl white #e1c7c9 */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #020102;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  min-height: 100vh;
+}
+
+a:link, a:visited {
+  color: #602d31;
+}
+a:hover {
+  color: #9A3554;
+  font-weight: bolder;
+}
+
+footer {
+  background-color: #020102;
+  color: #e1c7c9;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.header {  
+  border-bottom: 3px solid #020102;
+  padding-bottom: 2rem;
+}
+@media (max-width: 30rem) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+h1, h2, h3 {
+  color: #5D005D;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.logo-image {
+  height: 15rem;
+  width: 15rem;
+}
+
+#site-map {
+  font-weight: bold;
+  text-align: center;
+}
+#site-map, #explanations, #contact-form {
+  border: 2px solid #020102;
+  padding: 2rem;
+}
+
+ul {
+  /* list-style-type: disc; */
+}
