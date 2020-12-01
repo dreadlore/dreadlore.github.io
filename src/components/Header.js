@@ -10,7 +10,7 @@ class Header extends React.Component {
           <div className="col l8 m12">
             <h1>DreadLore 2.0</h1>
             <h4>
-                {/* <small>a very *under-construction* site</small> */}
+                You don't have to roll to <italic>win.</italic>
             </h4>
           </div>
           <div className="col l3 offset-l1 m12">
