@@ -6,6 +6,8 @@
 /* dl orange #8F2900 */
 /* dl light orange #AC5B3B */
 /* dl white #e1c7c9 */
+/* light no.2 grey - #E0E9F5 e0e9f5 for #b7c9e2 grey */
+/* tad darker no.3 grey – #88a2c6 */
 
 html {
   font-size: 62.5%;
@@ -13,6 +15,7 @@ html {
 
 body {
   color: #020102;
+  background-color: #b7c9e2; /*light gray*/
   font-family: 'Raleway', sans-serif;
   font-size: 2rem;
   min-height: 100vh;
@@ -26,6 +29,11 @@ a:hover {
   font-weight: bolder;
 }
 
+.divider {
+  /* color: white; */
+  background-color: #88a2c6;
+}
+
 footer {
   background-color: #020102;
   color: #e1c7c9;
@@ -35,6 +43,7 @@ footer {
 }
 
 .header {  
+  background-color: #020102;
   border-bottom: 3px solid #020102;
   padding-bottom: 2rem;
 }
@@ -67,6 +76,8 @@ h1, h2, h3 {
   text-align: center;
 }
 #site-map, #explanations, #contact-form {
+  background-color: #e0e9f5;
+  /* background-color: #ffffff; */
   border: 2px solid #020102;
   padding: 2rem;
 }
