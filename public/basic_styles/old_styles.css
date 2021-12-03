@@ -1,4 +1,4 @@
-/* Ideas PALETTE */
+/* Ideas from PALETTON.com */
 /* very dark purple #020102 */
 /* purple #5D005D */
 /* dl red #7F0027 */
@@ -44,6 +44,7 @@ footer {
 
 .header {  
   background-color: #020102;
+  color: #e1c7c9;
   border-bottom: 3px solid #020102;
   padding-bottom: 2rem;
 }
@@ -55,14 +56,21 @@ footer {
   }
 }
 
+h1 {
+  font-size: 5em;
+  margin: 1.5em, 0, 0, 0;
+}
+
 h1, h2, h3 {
-  color: #5D005D;
+  color: #814E52;
+  /* color: #5D005D; */
   font-family: 'Abril Fatface', cursive;
 }
 
 .logo-image {
-  height: 15rem;
-  width: 15rem;
+  height: 20rem;
+  margin-top: 1.5em;
+  /* width: 20rem; */
 }
 
 .kickstarter-video {
