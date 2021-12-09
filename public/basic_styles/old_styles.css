@@ -37,6 +37,7 @@ a:hover {
 footer {
   background-color: #020102;
   color: #e1c7c9;
+  /* max-width: 100%; */
   padding-bottom: 3rem;
   padding-top: 3rem;
   text-align: center;
@@ -46,9 +47,9 @@ footer {
   background-color: #020102;
   color: #e1c7c9;
   border-bottom: 3px solid #020102;
-  padding-bottom: 2rem;
+  /* padding-bottom: 2rem; */
 }
-@media (max-width: 30rem) {
+@media screen and (max-width: 30rem) {
   .header {
     display: flex;
     flex-direction: column;
@@ -56,9 +57,12 @@ footer {
   }
 }
 
-h1 {
-  font-size: 5em;
-  margin: 1.5em, 0, 0, 0;
+@media screen and (min-width: 30rem) {
+  h1 {
+    font-size: 5em;
+    text-align: center;
+    word-wrap: break-word;
+  }
 }
 
 h1, h2, h3 {
@@ -67,10 +71,16 @@ h1, h2, h3 {
   font-family: 'Abril Fatface', cursive;
 }
 
+.container {
+  /* display: flex; */
+  /* margin: 0; */
+  /* max-width: 100%; */
+  /* width: 100%; */
+}
+
 .logo-image {
   height: 20rem;
   margin-top: 1.5em;
-  /* width: 20rem; */
 }
 
 .kickstarter-video {
@@ -85,7 +95,6 @@ h1, h2, h3 {
 }
 #site-map, #explanations, #contact-form {
   background-color: #e0e9f5;
-  /* background-color: #ffffff; */
   border: 2px solid #020102;
   padding: 2rem;
 }
