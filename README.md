@@ -1,6 +1,6 @@
 # DreadLore System Official Site
-+ [DreadLore] 'DL' is a tabletop RPG which the co-founder of Adventure Kings LLC and myself are creating; the game can be thought of as a 'pen & ink' RPG similar to [Dungeons & Dragons], [Numenera], etc.
-+ I am building this static website to bolster my web development skills as well as to create a much-needed 'official' website for our business venture.
++ DreadLore is a tabletop role-playing game with its own original setting, Craster. The DreadLore system can be used to run many other settings, e.g. steam punk, near future, fantasy, horror, etc. This is the official site for the game. 
++ Our Kickstarter campaign to create and publish an official DreadLore Core Book was successful! As such, I will be making this site more robust, and in the future, plan to add a Character Creator app to it.
 
 ## Versions
 1. As I learned in the 'bootcamp', it's more important to have a working, unfinished (even ugly) product than to have no product at all. Thus, for the time being, I'll be deploying a simple site which uses [Materialze] instead of Bootstrap - I might as well test out something new. In the meantime, I'm working on a [Flask] tutorial on the side; the eventual DL site will most likely be built off Flask.
