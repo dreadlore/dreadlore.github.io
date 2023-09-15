@@ -15,8 +15,10 @@
 <!--Import materialize.css-->
     <!-- <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/> -->
 <!-- END MATERILIZE STUFFS -->
-<!-- font awesome -->
-  <script src="https://kit.fontawesome.com/ad36ebb4f0.js" crossorigin="anonymous"></script>
+
+<!-- FONT AWESOME FOR dreadlore -->
+    <script src="https://kit.fontawesome.com/31ff36ce1c.js" crossorigin="anonymous"></script>  
+
 <!-- My styles -->
     <link rel="stylesheet" href="/public/basic_styles/old_styles.css">
 <!-- Google fonts -->
@@ -39,6 +41,7 @@
 	</a>
       </div>
     </div> <!-- END ROW -->
+
 <!-- NAVIGATION -->
     <div class="row">
       <div class="col l3 m12 s12"
@@ -46,6 +49,13 @@
       >
         <h3>Site Map:</h3>
 	
+        <div class="divider"></div>
+        <div class="section">
+          <a href="https://www.drivethrurpg.com/product/432935/DreadLore--Getting-Started-Guide?affiliate_id=2985548">
+            FREE Getting Started Guide (GSG)
+            </a>
+        </div>
+
 	<div class="divider"></div>
         <div class="section">
           <a href="https://www.drivethrurpg.com/browse/pub/23791/Darkeyes-Design-LLC?affiliate_id=2985548">
@@ -53,12 +63,6 @@
             </a>
         </div>
 
-        <div class="divider"></div>
-        <div class="section">
-          <a href="https://docs.google.com/document/d/1f1uu4ZFv3nt8I1La3ApPFO8RkrvVyuHAozH9zi0y-W0/edit?usp=sharing">
-            Character Creation - Quick Start
-            </a>
-        </div>
 
         <div class="divider"></div>
         <div class="section">
@@ -117,6 +121,14 @@
             Contact Us!
             </a>
         </div>
+
+<!--        <div class="divider"></div>
+        <div class="section">
+          <a href="#">
+            Merch 
+            </a>
+        </div>
+-->
 
         <div class="divider"></div>
         <div class="section">
@@ -186,11 +198,25 @@
 
 
 <!-- END SIDE NAVIGATION -->
+<!-- MIDDLE PARTITION -->
       <div class="col l2"></div>
 
+<!-- BEGIN LEFT SIDE CONTENT -->
       <div class="col l7 m12 s12"
         id="explanations"
       >
+        <div class="carousel-container">
+          <img id="carousel-image" src="/public/media/carousel-images/Default-book-image.jpg" alt="Pic">
+          <div class="controls">
+            <i id="prev-button" class="fa-solid fa-backward-step" alt="Previous"></i>
+            <i id="play-button" class="fa-solid fa-play" alt="Play"></i>
+            <i id="pause-button" class="fa-solid fa-pause" alt="Pause"></i>
+	    <i id="next-button" class="fa-solid fa-forward-step" alt="Next"></i>
+          </div>
+        </div>
+ 	
+	<div class="divider"></div>
+
 	<p>
 	  <h2>DREADLORE INTRODUCTION</h2>
 	  <iframe 
@@ -202,8 +228,6 @@
 	    allowfullscreen></iframe>
 	</p>
 
-	<div class="divider"></div>
- 
 	<h2>UPCOMING EVENTS</h2>
       <div class="divider"></div>
         <h2>Livestreaming Games</h2>
@@ -223,7 +247,7 @@
 
 	<h2>Merch</h2>
 	<p>DreadLore merch is coming soon! We'll be working through
-&nbsp;<a href="">Printful</a>. Details TBA!
+&nbsp;<a href="">RedBubble</a>. Details TBA!
 	</p>
 
       <div class="divider"></div>
@@ -302,6 +326,9 @@
 	</footer>
   <!-- </div> -->
       <!-- END CONTAINER for Flex Box-->
+
+  <script src="/scripts/carousel.js"></script>
+
 </body>
 <!--Import jQuery BEFORE materialize.js-->
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>

@@ -83,6 +83,30 @@ h1, h2, h3 {
   margin-top: 1.5em;
 }
 
+.carousel-container {
+  text-align: center;
+}
+
+#carousel-image {
+  width: auto;
+  height: 50rem;
+}
+
+/*carousel controls*/
+.controls i {
+  font-size: 3rem;
+  color: #814E52;
+  margin: 0 .8rem;
+}
+
+.controls i:hover {
+  color: #9A3554;
+}
+
+.controls i:active {
+  color: #dc4e2f; 
+}
+
 .upcoming-events-video {
   width: 100%;
   height: 50rem;
