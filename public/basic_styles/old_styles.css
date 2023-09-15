@@ -88,8 +88,8 @@ h1, h2, h3 {
 }
 
 #carousel-image {
-  width: auto;
-  height: 50rem;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 /*carousel controls*/
