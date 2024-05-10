@@ -382,9 +382,25 @@
 &nbsp;<a href="https://www.redbubble.com/people/billbunkum/explore?asc=u">RedBubble</a>.
 Check out the current design options - click on one to see merch that's offered, e.g. t-shirts, hats, bags, etc.!
 
-	  <script type="text/javascript" src="https://www.redbubble.com/assets/external_portfolio.js"></script>
-	  <script id="rb-xzfcxvzx" type="text/javascript">new RBExternalPortfolio('www.redbubble.com', 'billbunkum', 2, 2).renderIframe();</script>
-	</p>
+	<div class="merch-container">
+		<script 
+			loading="lazy"
+			type="text/javascript" 
+			src="https://www.redbubble.com/assets/external_portfolio.js">
+		</script>
+	  <script 
+			id="rb-xzfcxvzx" 
+			type="text/javascript">
+				let w = window.innerWidth;
+				let h = window.innerHeight;
+				if (w > 980) {
+					new RBExternalPortfolio('www.redbubble.com', 'billbunkum', 5, 3).renderIframe();
+				} else {
+					new RBExternalPortfolio('www.redbubble.com', 'billbunkum', 5, 1).renderIframe();
+				}
+			</script>
+	</div>
+</p>
 
 	<div class="divider"></div>
 
