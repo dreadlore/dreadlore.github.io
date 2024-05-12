@@ -62,6 +62,18 @@ h1, h2, h3, h4 {
 .merch-container {
 }
 
+.book-image-container {
+	width: 100%;
+}
+	.book-image-container img {
+		width: 50%;
+	}
+.front-cover {
+	float: left;
+}
+.back-cover {
+	float: right;
+}
 @media screen and (max-width: 30rem) {
   .header {
     display: flex;
@@ -71,6 +83,15 @@ h1, h2, h3, h4 {
 	.merch-container {
 		display: block;
 		text-align: center;
+	}
+	.book-image-container {
+		text-align: center;
+	}
+	.book-image-container img {
+		width: 100%;	
+	}
+	.back-cover {
+		float: none;
 	}
 }
 
