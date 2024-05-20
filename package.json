@@ -1,7 +1,7 @@
 {
   "name": "dreadlore.github.io",
   "version": "1.0.0",
-  "description": "+ DreadLore is a tabletop role-playing game with its own original setting, Craster. The DreadLore system can be used to run many other settings, e.g. steam punk, near future, fantasy, horror, etc. This is the official site for the game.  + Our Kickstarter campaign to create and publish an official DreadLore Core Book was successful! As such, I will be making this site more robust, and in the future, plan to add a Character Creator app to it.",
+  "description": "Finally, *not* D&D! DreadLore is a tabletop role-playing game with its own original setting, Craster. The DreadLore system can be used to run many other settings, e.g. steam punk, near future, fantasy, horror, etc. This is the official site for the game.  + Our Kickstarter campaign to create and publish an official DreadLore Core Book was successful! As such, I will be making this site more robust, and in the future, plan to add a Character Creator app to it.",
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
