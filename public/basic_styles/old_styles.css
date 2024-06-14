@@ -55,6 +55,13 @@ h1, h2, h3, h4 {
 .book-image-container {
 	width: 100%;
 }
+.get-the-book {
+	margin: 2rem;
+}
+	.get-the-book > a > h1:hover {
+		color: orange;
+		background-color: black;
+	}
 /*	.book-image-container img {
 		width: 50%;
 	}
