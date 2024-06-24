@@ -39,6 +39,12 @@ h1, h2, h3, h4 {
   /* color: #5D005D; */
   font-family: 'Abril Fatface', cursive;
 }
+	h2.center-title {
+		text-align: center;
+	}
+	h2.left-title {
+		text-align: left;
+	}
 .divider {
   /* color: white; */
   background-color: #88a2c6;
