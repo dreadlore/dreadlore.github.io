@@ -15,6 +15,11 @@
 ## Functional
 + Although I abore useless 'bells and whistles', it seems the masses love'em. I plan on employing some of Material CSS' more interesting UX effects. As always, I must leave out elements which serve no purpose; I just can't help myself!
 
+# Running Locally
++ This version uses Liveserver to test locally from the `.` directory rather than `public/`.
+` $ yarn run serve`
+
+
 [MaterializeCSS]: http://materializecss.com/grid.html
 [Material-Design-Lite]: https://getmdl.io/
 [official]: http://dreadlore.com
