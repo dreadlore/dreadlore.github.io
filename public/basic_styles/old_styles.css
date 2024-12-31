@@ -39,6 +39,10 @@ h1, h2, h3, h4 {
   /* color: #5D005D; */
   font-family: 'Abril Fatface', cursive;
 }
+  h2.header-subtitle {
+		color: #b7c9e2;
+		text-align: center;
+	}
 	h2.center-title {
 		text-align: center;
 	}
