@@ -30,8 +30,9 @@
 <!-- BEGIN ROW HEADER CONTENT -->
 	<div class="row header"> <!-- CONTAINER is for Flexbox -->
 		<div class="col l8 m12">
-			<h1>DreadLore System</h1>
-		</div> <!-- END COL HEADER -->
+			<h1 id="title">DreadLore</h1>
+			<h2 class="header-subtitle">A TTRPG System</h2>
+		</div>
 
 		<div class="col l3 offset-l1 m12">
 			<a href="https://dreadlore.com">
@@ -47,14 +48,43 @@
 	<div class="col l7 m12 s12"
 		id="explanations"
 	>
+<!-- TOP NAV BAR -->
+		<div class="row">
+			<div class="col l3 m2 sm3"></div>
+			<div class="col l6 m8 sm6">
+				<ul class="top-nav">
+					<li>
+						<a href="#about">About</a>
+					</li>
+					<li>
+						<a href="#mechanics">The Game</a>
+					</li>
+					<li>
+						<a href="#resources">Resources</a>
+					</li>
+					<li>
+						<a href="https://www.redbubble.com/people/billbunkum/shop">Merch</a>
+					</li>
+					<li>	
+						<a href="contact.html">Contact</a>
+					</li>
+				</ul>	
+			</div>
+			<div class="col l3 m2 sm3"></div>
+		</div>
+<!-- END NAV BAR -->
+
 <!-- GET THE BOOK -->
 		<div class="row">
+
 		<div class="col l3"></div>
 		<div class="col l6">
 			<div class="get-the-book">
-				<a href="https://tinyurl.com/3jxvzu2j"><h1>Get the Book</h1>
+				<h1>Get the Source Book</h1>
+
+				<a href="https://tinyurl.com/3jxvzu2j" alt="hardback">
 					<div class="book-images">
-						<img src="/public/media/DreadLore-Corebook-FRONT-standing.jpeg" 
+						<img src="/public/media/DreadLore-Corebook-FRONT-standing-transparent.png" 
 							alt="DL Book Front"
 						/>
 					</div>
@@ -69,7 +99,7 @@
 
 <!-- WHAT'S A SECTIONS -->
 	<!-- id'S USED FOR ANCHORS -->
-		<h1 id="what-is-dl">What's a DreadLore?</h1>
+		<h1 id="about">What's a DreadLore?</h1>
 		<p>DreadLore is a story-telling tabletop roleplaying game (TTRPG) system
 		&nbsp;which is setting agnostic – you can use these rules for many different sorts of games,
 		&nbsp;Fantasy, Near future, Horror, Noir, Adventure, etc.
@@ -123,109 +153,6 @@
 					alt="Next"></i>
 			</div> <!-- END CONTROLS -->
 		</div> <!-- END CAROUSEL -->
-
-		<div class="divider"></div>
-		<p>
-			<h1 id="dreadlore-actual-play">ACTUAL PLAY</h1>
-			<div class="divider"></div>
-
-			<h2 class="center-title">THE RED WRIT</h2>
-			<div class="video-container">
-				<iframe
-					loading="lazy"
-					src="https://www.youtube.com/embed/videoseries?si=ux8-ND68z8cCSruH&amp;list=PLKcCKSGU8sp1okkuHM7KI57YUE62MZHvj" 
-					title="YouTube video player" 
-					frameborder="0" 
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-					referrerpolicy="strict-origin-when-cross-origin" 
-					allowfullscreen>
-				</iframe>
-			</div>
-
-			<h2 class="center-title">N2_!</h2>
-			<div class="video-container">
-				<iframe  
-					loading="lazy"
-					src="https://www.youtube.com/embed/videoseries?si=8DwJ8vl4vEq-B16s&amp;list=PLKcCKSGU8sp2y28eXsxmq8Ux3TUDUO1bs" 
-					title="YouTube video player" 
-					frameborder="0" 
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-					referrerpolicy="strict-origin-when-cross-origin" 
-					allowfullscreen>
-				</iframe>
-			</div>
-		</p>
-
-		<div class="divider"></div>
-
-<!-- MERCH SECTION -->
-		<h1 id="merch">Merch</h1>
-		<p>DreadLore merch is here! 
-		&nbsp;<a href="https://www.redbubble.com/people/billbunkum/explore?asc=u">RedBubble</a>.
-		Check out the current design options - click on one to see merch that's offered, e.g. t-shirts, hats, bags, etc.!
-
-			<div class="merch-container">
-				<script 
-					loading="lazy"
-					type="text/javascript" 
-					src="https://www.redbubble.com/assets/external_portfolio.js">
-				</script>
-				<script 
-					id="rb-xzfcxvzx" 
-					type="text/javascript">
-						let w = window.innerWidth;
-						let h = window.innerHeight;
-						if (w > 980) {
-							new RBExternalPortfolio('www.redbubble.com', 'billbunkum', 6, 4).renderIframe();
-						} else if (w > 600) {
-							new RBExternalPortfolio('www.redbubble.com', 'billbunkum', 6, 2).renderIframe();
-						} else {
-							new RBExternalPortfolio('www.redbubble.com', 'billbunkum', 6, 1).renderIframe();
-						}
-					</script>
-			</div> <!-- END COL MERCH -->
-		</p> <!-- END MERCH p -->
-
-		<div class="divider"></div>
-
-<!-- EVENTS SECTION -->
-		<h1 id="events">EVENTS</h1>
-		<h2>Livestreams</h2>
-		<p>Our <b>DreadLore Livestreams</b> podcast is where we showcase <strong>DreadLore</strong> as a new TTRPG system. We <em>livestream</em> every Monday 7PM (EST) on
-	&nbsp;<a href="https://www.twitch.tv/dreadlore">Twitch</a>.
-	&nbsp;DreadLore TotM is now on <strong>all of the podcasts</strong>: Apple, Google, Spotify, etc.
-	&nbsp;Be sure to Like, Subscribe, Follow, leave a Comment, send us good vibes, perform a blood sacrifice, or
-	&nbsp;whatever you feel comfortable doing!
-		</p>
-
-		<h2>Geeky Gamer Podcast (GGP)</h2>
-		<p>Our <b>Geeky Gamer Podcast (GGP)</b> goes LIVE on
-	&nbsp;<a href="https://www.youtube.com/playlist?list=PLKcCKSGU8sp1FDtNcrge8BOCxVdgdGrsW">YouTube</a>.
-	&nbsp;You can also <a href="https://open.spotify.com/show/5KUNp49ohB0gJZqe08zI8O?si=e295d7f63e6445ef">LISTEN to us on Spotify</a>
-	&nbsp;or wherever you consume your Podcasts.<br />
-	&nbsp;A featured Guest chat with Bill, Ken, members of the Cast of TotM about all things geeky, gamer, and creative. We really dig into it, so be sure to wear your "daddy pants" when listening!
-		</p>
-
-		<div class="divider"></div>
-
-		<h2>PAST EVENTS</h2>
-		<h2>Lexington Comic & Toy Convention 2023</h2>
-		<p>Come and see us at
-		&nbsp;<a href="https://www.amazon.com/Saturday-Shepherd-World-Beyond-Logan/dp/B09GZFCB1W">ComiCon</a>
-		&nbsp;in Lexington, KY March 23-26 this year. We will be sharing a booth with our buddy,
-		&nbsp;<strong>Logan Nance</strong>, the author of the DreadLore Prologue, 'A Land Soaked in Tears', as well as novels like,
-		&nbsp;<a href="https://www.amazon.com/Saturday-Shepherd-World-Beyond-Logan/dp/B09GZFCB1W">Saturday Shepherd and the World Beyond</a>.
-		</p>
-
-		<h2>Kickstarter was Successful!</h2>
-		<p>
-			<iframe 
-				src="https://www.kickstarter.com/projects/dreadlore/dreadlore/widget/video.html"    
-				class="kickstarter-video"
-				frameborder="0" 
-				scrolling="no" 
-			></iframe>
-		</p>
 
 <!-- MECHANICS SECTION -->
 		<div class="divider"></div>
@@ -323,6 +250,88 @@
 
 		</ul>
 
+		<div class="divider"></div>
+		<p>
+			<h1 id="dreadlore-actual-play">ACTUAL PLAY</h1>
+			<div class="divider"></div>
+
+			<h2 class="center-title">THE RED WRIT</h2>
+			<div class="video-container">
+				<iframe
+					loading="lazy"
+					src="https://www.youtube.com/embed/videoseries?si=ux8-ND68z8cCSruH&amp;list=PLKcCKSGU8sp1okkuHM7KI57YUE62MZHvj" 
+					title="YouTube video player" 
+					frameborder="0" 
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+					referrerpolicy="strict-origin-when-cross-origin" 
+					allowfullscreen>
+				</iframe>
+			</div>
+
+		</p>
+
+<!--
+				<script 
+					loading="lazy"
+					type="text/javascript" 
+					src="https://www.redbubble.com/assets/external_portfolio.js">
+				</script>
+				<script 
+					id="rb-xzfcxvzx" 
+					type="text/javascript">
+						let w = window.innerWidth;
+						let h = window.innerHeight;
+						if (w > 980) {
+							new RBExternalPortfolio('www.redbubble.com', 'billbunkum', 6, 4).renderIframe();
+						} else if (w > 600) {
+							new RBExternalPortfolio('www.redbubble.com', 'billbunkum', 6, 2).renderIframe();
+						} else {
+							new RBExternalPortfolio('www.redbubble.com', 'billbunkum', 6, 1).renderIframe();
+						}
+					</script>
+
+-->
+
+<!-- EVENTS SECTION 
+		<h1 id="events">EVENTS</h1>
+		<h2>Livestreams</h2>
+		<p>Our <b>DreadLore Livestreams</b> podcast is where we showcase <strong>DreadLore</strong> as a new TTRPG system. We <em>livestream</em> every Monday 7PM (EST) on
+	&nbsp;<a href="https://www.twitch.tv/dreadlore">Twitch</a>.
+	&nbsp;DreadLore TotM is now on <strong>all of the podcasts</strong>: Apple, Google, Spotify, etc.
+	&nbsp;Be sure to Like, Subscribe, Follow, leave a Comment, send us good vibes, perform a blood sacrifice, or
+	&nbsp;whatever you feel comfortable doing!
+		</p>
+
+		<h2>Geeky Gamer Podcast (GGP)</h2>
+		<p>Our <b>Geeky Gamer Podcast (GGP)</b> goes LIVE on
+	&nbsp;<a href="https://www.youtube.com/playlist?list=PLKcCKSGU8sp1FDtNcrge8BOCxVdgdGrsW">YouTube</a>.
+	&nbsp;You can also <a href="https://open.spotify.com/show/5KUNp49ohB0gJZqe08zI8O?si=e295d7f63e6445ef">LISTEN to us on Spotify</a>
+	&nbsp;or wherever you consume your Podcasts.<br />
+	&nbsp;A featured Guest chat with Bill, Ken, members of the Cast of TotM about all things geeky, gamer, and creative. We really dig into it, so be sure to wear your "daddy pants" when listening!
+		</p>
+
+-->
+		<div class="divider"></div>
+
+		<h2>PAST EVENTS</h2>
+		<h2>Lexington Comic & Toy Convention 2023</h2>
+		<p>Come and see us at
+		&nbsp;<a href="https://www.amazon.com/Saturday-Shepherd-World-Beyond-Logan/dp/B09GZFCB1W">ComiCon</a>
+		&nbsp;in Lexington, KY March 23-26 this year. We will be sharing a booth with our buddy,
+		&nbsp;<strong>Logan Nance</strong>, the author of the DreadLore Prologue, 'A Land Soaked in Tears', as well as novels like,
+		&nbsp;<a href="https://www.amazon.com/Saturday-Shepherd-World-Beyond-Logan/dp/B09GZFCB1W">Saturday Shepherd and the World Beyond</a>.
+		</p>
+
+		<h2>Kickstarter was Successful!</h2>
+		<p>
+			<iframe 
+				src="https://www.kickstarter.com/projects/dreadlore/dreadlore/widget/video.html"    
+				class="kickstarter-video"
+				frameborder="0" 
+				scrolling="no" 
+			></iframe>
+		</p>
+
 	</div> <!-- END COL MAIN CONTENT HERE -->
 
 <!-- BEGIN ROW NAVIGATION -->
@@ -348,14 +357,14 @@
 		
 				<div class="divider"></div>
 				<div class="section">
-					<a href="#merch">
+					<a href="https://www.redbubble.com/people/billbunkum/shop">
 						MERCH
 					</a>
 				</div>
 			</div>
 
 			<div class="col l4 m6 s12"> <!-- PUCK 2 -->
-				<h3>Content</h3>
+				<h3 id="resources">Resources</h3>
 				<div class="section">
 					<a href="#dreadlore-actual-play">
 						DreadLore Actual Play
@@ -411,7 +420,7 @@
 
 			<div class="divider"></div>
 			<div class="section">
-				<a href="#what-is-dl">
+				<a href="#about">
 					What's DreadLore?
 				</a> 
 			</div>
@@ -426,13 +435,14 @@
 			<div class="divider"></div>
 			<div class="section">
 				<a href="#events">
-					Events	
+					Events (coming soon)	
 				</a>
 			</div>
+
 		</div>
 
 <!-- SOCIAL ICONS -->
-		<div class="col l6 m6 s12"> <!-- PUCK 4 -->
+		<div class="col l4 m6 s12"> <!-- PUCK 4 -->
 			<h3>Connect</h3>  
 			<div class="section">
 
@@ -470,7 +480,7 @@
 			</div>
 		</div>
 
-		<div class="col l6 m6 s12"> <!-- PUCK 5 -->
+		<div class="col l4 m6 s12"> <!-- PUCK 5 -->
 			<div class="section">
 				<h3>Support</h3>
 				<a href="https://patreon.com/dreadlore"
@@ -496,12 +506,21 @@
 			</div>
 		</div>
 
+		<div class="col l4 m6 s12"> <!-- PUCK 6 -->
+			<h3>~ Back to Top ~</h3>  
+			<div class="section">
+				<a href="#title">
+					<i class="fa fa-hand-pointer-o fa-2x"></i>
+				</a>
+			</div>
+		</div>
+
 	</div> <!-- END COL NAVIGATION -->
 
 	<div class="divider"></div>
 
 	<footer>
-		Darkeyes Design, LLC. © 2012-2024
+		Darkeyes Design, LLC. © 2012-2025
 	</footer>
 <!-- END CONTAINER for Flex Box-->
 
